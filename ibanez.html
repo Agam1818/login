@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ibanez RG Series Electric Guitar</title>
+    <link rel="stylesheet" href="ww.css">
+</head>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+    }
+
+
+    section {
+        padding: 2em;
+        text-align: center;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+        border: 1px solid #333;
+        border-radius: 8px;
+        margin-top: 1em;
+    }
+    nav a {
+     color: #fff;
+        text-decoration: none;
+     padding: 10px 20px;
+      margin: 0 10px;
+        border-radius: 5px;
+    }
+
+    nav a:hover {
+        background-color: #8b0000; 
+    }
+
+    header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    }
+</style>
+<nav>
+    <a href="index.html">Home</a>
+    <a href="#" onclick="openfenderPage()">fender</a>
+    <a href="#" onclick="openGibsonPage()">Gibson Les Paul</a>
+    <a href="#" onclick="openIbanezPage()">ibanez</a>
+</nav>
+
+    <header>
+        <h1>Ibanez RG Series Electric Guitar</h1>
+    </header>
+    
+    <section>
+        <p>The Ibanez RG Series is a popular line of electric guitars known for their sleek design and high-performance features. With a slim and fast neck, the RG Series is favored by shredders and metal players for its playability. These guitars often feature humbucking pickups, providing a powerful and articulate tone. The double-cutaway body design and contoured edges offer excellent access to higher frets, making it a versatile choice for various playing styles.</p>
+        <img src="https://i.pinimg.com/564x/74/14/a6/7414a6d38afb29cb9272a519a0f9de0a.jpg" alt="Ibanez RG Series">
+    </section>
+</body>
+<script>
+    function openGibsonPage() {
+        window.location.href = "gibson.html";
+    }
+    function openIbanezPage() {
+        window.location.href = "ibanez.html";
+
+    }
+    function openfenderPage() {
+        window.location.href = "fender.html";
+
+    }
+</script>
+</html>

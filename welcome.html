@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electric Guitars</title>
+    <link rel="stylesheet" href="ww.css">
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="#" onclick="openfenderPage()">fender</a>
+        <a href="#" onclick="openGibsonPage()">Gibson Les Paul</a>
+        <a href="#" onclick="openIbanezPage()">ibanez</a>
+    </nav>
+
+    <header>
+        <h1>Electric Guitars</h1>
+    </header>
+    
+    <section>
+        <p>Electric guitars have revolutionized the music industry with their unique sound and versatility. These instruments use electromagnetic pickups to convert string vibrations into electrical signals, allowing players to explore a wide range of tones. From the iconic Stratocaster to the powerful Les Paul, electric guitars come in various shapes and sizes, each contributing to the rich tapestry of musical genres. Whether you're a beginner or a seasoned pro, the world of electric guitars offers endless possibilities for creative expression.</p>
+        <img src="https://i.pinimg.com/564x/b3/2b/f8/b32bf89c00b0dc994ff830b5bb7608aa.jpg" alt="Electric Guitars">
+        
+    </section>
+
+    <script>
+        function openGibsonPage() {
+            window.location.href = "gibson.html";
+        }
+        function openIbanezPage() {
+            window.location.href = "ibanez.html";
+
+        }
+        function openfenderPage() {
+            window.location.href = "fender.html";
+
+        }
+    </script>
+
+</body>
+</html>
